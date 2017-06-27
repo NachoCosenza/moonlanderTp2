@@ -9,6 +9,7 @@ public class ColicionNave : MonoBehaviour {
 
 	void Awake(){
 		rb = GetComponent<Rigidbody2D>();
+
 	}
 
 
@@ -20,6 +21,7 @@ public class ColicionNave : MonoBehaviour {
 			(rb.velocity.y < -RangoParaAterrisaje)) 
 		{
 			gameObject.SetActive (AvtivadorDelObjeto);
+
 		}
 
 	}

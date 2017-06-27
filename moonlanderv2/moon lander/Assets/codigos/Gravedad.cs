@@ -20,7 +20,7 @@ public class Gravedad : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		// genera la grabedad para le planeta;
+		// genera la grabedad para el planeta;
 		nave.GetComponent<Rigidbody2D> ().AddForce ((gravedad.position - nave.transform.position) * intecidadDeGravedad);
 
 

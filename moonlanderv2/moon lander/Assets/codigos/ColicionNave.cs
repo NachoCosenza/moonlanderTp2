@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ColicionNave : MonoBehaviour {
-	private float RangoParaAterrisaje = 1.5f;
+	private float RangoParaAterrisaje = 0.75f;
 	private bool AvtivadorDelObjeto = false;
 	private Rigidbody2D rb;
 

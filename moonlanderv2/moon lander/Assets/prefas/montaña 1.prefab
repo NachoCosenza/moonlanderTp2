@@ -41,7 +41,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -93.65}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 43.65}
 --- !u!60 &60922620502121886
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -72,6 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nave: {fileID: 0}
+  vidasnave: {fileID: 0}
 --- !u!212 &212522767155553514
 SpriteRenderer:
   m_ObjectHideFlags: 1

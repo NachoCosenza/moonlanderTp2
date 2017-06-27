@@ -35,9 +35,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215535827784282}
-  m_LocalRotation: {x: 0.022823734, y: -0.013516746, z: 0.5093879, w: 0.86012816}
-  m_LocalPosition: {x: -381.95068, y: 36.152508, z: 0}
-  m_LocalScale: {x: 3.514677, y: 3.4411879, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 63.05069, y: 77.2475, z: 0}
+  m_LocalScale: {x: 3.514672, y: 3.4411929, z: 1.0000012}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +73,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04544115aca92948a9d6ac483e9f356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nave: {fileID: 1779070869431516, guid: 0427dda4a6c2dcc43846cc0cbdeae48c, type: 2}
+  nave: {fileID: 1651973584152410, guid: 8af678db55b723f42b81d1fa8f4d995e, type: 2}
+  vidasnave: {fileID: 0}
 --- !u!212 &212847021397352826
 SpriteRenderer:
   m_ObjectHideFlags: 1

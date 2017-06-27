@@ -9,28 +9,34 @@ public class SiguienteNivel : MonoBehaviour {
 	public GameObject nave;
 	private float AvanzarNivel = 0f;
 	public bool comprovarAcceso = false;
+	public ColicionNave comprobarVida;
+	private bool comprovarAcceso2;
 
 	void Start () 
 	{
 		// asegura que cadaves que se inicie el acceso sea negado
 			comprovarAcceso = false;
+			
 		
 	}
 	
 
 	void Update () 
 	{
+//		comprovarAcceso2 = comprobarVida.siguevivo;
+		print("acese1"+comprovarAcceso+"aceso2"+comprovarAcceso2);
 
 		AvanzarNivel = Input.GetAxisRaw ("siguentenivel");
-		print (AvanzarNivel);
 
-		if (comprovarAcceso) 
-		{
+
+
+		if (comprovarAcceso && comprovarAcceso2)
+		{print ("entre");
 			if (AvanzarNivel == 1) 
-				{			
-					SceneManager.LoadScene (NombreDeEscena);
-					print ("entre");
-				}
+			{			
+				SceneManager.LoadScene (NombreDeEscena);
+				print ("entre");
+			}
 		}
 		
 	}
@@ -40,6 +46,8 @@ public class SiguienteNivel : MonoBehaviour {
 	{
 		print ("coliciona");
 		comprovarAcceso = true;
+
+
 
 	}
 

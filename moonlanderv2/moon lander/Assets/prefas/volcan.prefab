@@ -68,6 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nave: {fileID: 0}
+  vidasnave: {fileID: 0}
 --- !u!212 &212838283487393022
 SpriteRenderer:
   m_ObjectHideFlags: 1

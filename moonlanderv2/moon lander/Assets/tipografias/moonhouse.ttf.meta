@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c54330b2c2e0b8f4c8557117723c029e
+timeCreated: 1498551820
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: moonhouse
+  fontNames:
+  - moonhouse
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

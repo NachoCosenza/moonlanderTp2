@@ -10,11 +10,13 @@ public class ColicionNave : MonoBehaviour {
 	private Vector2 PosicioInicialNave;
 	public bool siguevivo = true; 
 
-	public int vidas = 6;
+	public int vidas = 10;
 
 	void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
+
+
 		PosicioInicialNave = rb.transform.position;
 	}
 
@@ -34,9 +36,8 @@ public class ColicionNave : MonoBehaviour {
 			rb.velocity = Vector2.zero;
 			vidas = vidas - 1;
 			siguevivo = false;
-			print ("accedi");
-
-		} else 
+			print ("accedi");} 
+		else 
 		{
 			siguevivo = true;
 			print ("accedi");

@@ -23,7 +23,7 @@ public class SiguienteNivel : MonoBehaviour {
 
 	void Update () 
 	{
-//		comprovarAcceso2 = comprobarVida.siguevivo;
+		comprovarAcceso2 = comprobarVida.siguevivo;
 		print("acese1"+comprovarAcceso+"aceso2"+comprovarAcceso2);
 
 		AvanzarNivel = Input.GetAxisRaw ("siguentenivel");

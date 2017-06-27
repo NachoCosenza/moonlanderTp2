@@ -138,6 +138,21 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: NombreDeEscena
+      value: Creditos
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: nave
+      value: 
+      objectReference: {fileID: 868310673}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: comprobarVida
+      value: 
+      objectReference: {fileID: 868310676}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
   m_IsPrefabParent: 0
@@ -370,6 +385,21 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: NombreDeEscena
+      value: Creditos
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: nave
+      value: 
+      objectReference: {fileID: 868310673}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: comprobarVida
+      value: 
+      objectReference: {fileID: 868310676}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
   m_IsPrefabParent: 0
@@ -726,17 +756,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: nave
+      value: 
+      objectReference: {fileID: 868310673}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: comprobarVida
+      value: 
+      objectReference: {fileID: 868310676}
     - target: {fileID: 1973686135835204, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
       propertyPath: m_Name
       value: zonasegura (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 4453377228485210, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 1973686135835204, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: NombreDeEscena
+      value: Creditos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
@@ -792,6 +829,21 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: NombreDeEscena
+      value: Creditos
+      objectReference: {fileID: 0}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: nave
+      value: 
+      objectReference: {fileID: 868310673}
+    - target: {fileID: 114234220258655304, guid: d1e7cda92e9149948b73c5c39f4da0d5,
+        type: 2}
+      propertyPath: comprobarVida
+      value: 
+      objectReference: {fileID: 868310676}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1e7cda92e9149948b73c5c39f4da0d5, type: 2}
   m_IsPrefabParent: 0

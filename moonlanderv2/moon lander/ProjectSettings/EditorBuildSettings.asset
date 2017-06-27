@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/escenas/level2.unity
   - enabled: 1
     path: Assets/escenas/moonlander.unity
+  - enabled: 1
+    path: Assets/escenas/Creditos.unity

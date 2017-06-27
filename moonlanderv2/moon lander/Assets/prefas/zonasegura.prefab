@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4453377228485210}
   - component: {fileID: 61004097444317814}
+  - component: {fileID: 114234220258655304}
   m_Layer: 0
   m_Name: zonasegura
   m_TagString: Untagged
@@ -34,8 +35,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1973686135835204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -507.5, y: 60.2, z: -0.25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 537.2, y: 26.6, z: -0.25}
+  m_LocalScale: {x: 2.57, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54,3 +55,18 @@ BoxCollider2D:
   m_Offset: {x: 0.34, y: 0.1}
   serializedVersion: 2
   m_Size: {x: 13.94, y: 0.23}
+--- !u!114 &114234220258655304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973686135835204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4f3dec3652d0d43a5e7134f3dc3ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreDeEscena: 
+  nave: {fileID: 0}
+  comprovarAcceso: 0
+  comprobarVida: {fileID: 0}

@@ -16,8 +16,6 @@ public class SiguienteNivel : MonoBehaviour {
 	{
 		// asegura que cadaves que se inicie el acceso sea negado
 			comprovarAcceso = false;
-			
-		
 	}
 	
 

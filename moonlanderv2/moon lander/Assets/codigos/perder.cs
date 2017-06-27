@@ -12,13 +12,8 @@ public class perder : MonoBehaviour {
 	void Start ()
 	{
 		PosicioInicialNave = nave.transform.position;
-		//vidasacomparar = vidasnave.siguevivo;
+	}
 
-	}
-	void Update ()
-	{
-		//vidasnave.siguevivo = vidasacomparar;
-	}
     private void OnCollisionEnter2D(Collision2D collision)
     {
 		nave.GetComponent<Rigidbody2D> ().position = PosicioInicialNave;

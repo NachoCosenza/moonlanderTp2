@@ -33,17 +33,6 @@ public class movimientoParalax : MonoBehaviour {
 			transform.Translate (Vector2.right * fuerza * Time.deltaTime);			
 		}
 
-
-		/*rb.AddRelativeForce (Vector3.back * fuerza * vertical);
-		rb.AddRelativeForce (Vector3.right * fuerza * horizontal);*/
-
 	}
 
-
-	void Update () 
-	{
-		/*vertical = Input.GetAxisRaw ("volar");
-		horizontal = Input.GetAxisRaw ("rotation");*/
-		
-	}
 }

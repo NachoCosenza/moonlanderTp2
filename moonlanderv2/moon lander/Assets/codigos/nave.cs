@@ -15,10 +15,6 @@ public class nave : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody2D>();
 	}
-
-    void Start ()
-    {}
-	
 	
 	void Update ()
     {

@@ -13,13 +13,6 @@ public class reset : MonoBehaviour {
 	private int vidasacomparar = 0;
 	public string nombreDeEscena;
 
-	//private Vector2 AnguloInicialNave;
-	void Start () 
-	{
-		//PosicioInicialNave = nave.transform.position;
-	}
-	
-
 	void Update ()
 	{
 		vidasacomparar = vidasnave.vidas;

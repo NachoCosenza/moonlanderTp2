@@ -9,6 +9,7 @@ public class To_Game : MonoBehaviour
 
 	public void AlaEscena()
 	{
+		Debug.Log ("funciona");
 		SceneManager.LoadScene (nombreDeEscena);
 	}
 }

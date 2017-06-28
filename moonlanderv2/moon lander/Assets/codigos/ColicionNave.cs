@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ColicionNave : MonoBehaviour {
 	private float RangoParaAterrisaje = 0.75f;
@@ -8,16 +9,20 @@ public class ColicionNave : MonoBehaviour {
 	private Rigidbody2D rb;
 	private MeshRenderer meshrender;
 	private Vector2 PosicioInicialNave;
-	public bool siguevivo = true; 
+	public bool siguevivo = true;
+	[SerializeField]private Text CantidasDeVidas;
 
 	public int vidas = 10;
 
 	void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
-
-
 		PosicioInicialNave = rb.transform.position;
+	}
+
+	void Update()
+	{
+		CantidasDeVidas.text = vidas.ToString();		
 	}
 
 

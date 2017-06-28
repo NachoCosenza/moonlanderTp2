@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SiguienteNivel : MonoBehaviour {
 
@@ -11,11 +12,16 @@ public class SiguienteNivel : MonoBehaviour {
 	public bool comprovarAcceso = false;
 	public ColicionNave comprobarVida;
 	private bool comprovarAcceso2;
+	public Text pressN;
+
 
 	void Start () 
 	{
 		// asegura que cadaves que se inicie el acceso sea negado
 			comprovarAcceso = false;
+			//pressN.enabled = true;
+		pressN.enabled = false;
+
 	}
 	
 
@@ -28,8 +34,9 @@ public class SiguienteNivel : MonoBehaviour {
 
 
 
+
 		if (comprovarAcceso && comprovarAcceso2)
-		{print ("entre");
+		{	pressN.enabled = true;
 			if (AvanzarNivel == 1) 
 			{			
 				SceneManager.LoadScene (NombreDeEscena);
